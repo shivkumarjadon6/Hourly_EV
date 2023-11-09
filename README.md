@@ -21,6 +21,30 @@ Try to type in the commands yourself or copy-and-paste the commands to speed thi
 If you have any questions at all, please leave a comment at the bottom of the post.
 
 ## Usage
+Install Python:
+If you haven't already, install Python on your machine. You can download it from the official Python website.
+
+Install Pandas:
+Open a terminal or command prompt and install Pandas using the following command:
+
+bash
+Copy code
+
+pip install pandas
+
+Create a Virtual Environment (Optional but recommended):
+It's good practice to use a virtual environment to manage dependencies for your project. Create one using:
+
+bash
+Copy code
+
+python -m venv venv
+
+Activate the virtual environment:
+
+On Windows: venv\Scripts\activate
+On macOS/Linux: source venv/bin/activate
+
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
